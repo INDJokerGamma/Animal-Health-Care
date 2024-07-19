@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animal Care</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+        }
+        .hero {
+            background-image: url('hero-image.jpg');
+            background-size: cover;
+            background-position: center;
+            height: 400px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            text-align: center;
+        }
+        .hero h1 {
+            font-size: 3rem;
+        }
+        .services, .testimonials {
+            padding: 2rem;
+            text-align: center;
+        }
+        .service, .testimonial {
+            background-color: white;
+            margin: 1rem;
+            padding: 1rem;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Animal Care</h1>
+        <nav>
+            <a href="#services" style="color: white; margin: 0 1rem;">Services</a>
+            <a href="#testimonials" style="color: white; margin: 0 1rem;">Testimonials</a>
+            <a href="#contact" style="color: white; margin: 0 1rem;">Contact</a>
+        </nav>
+    </header>
+    <section class="hero">
+        <h1>Welcome to Animal Care</h1>
+        <p>Your pet's health and happiness is our priority</p>
+    </section>
+    <section id="services" class="services">
+        <h2>Our Services</h2>
+        <div class="service">
+            <h3>Veterinary Care</h3>
+            <p>Comprehensive health check-ups and treatments for your pets.</p>
+        </div>
+        <div class="service">
+            <h3>Grooming</h3>
+            <p>Professional grooming services to keep your pet looking great.</p>
+        </div>
+        <div class="service">
+            <h3>Boarding</h3>
+            <p>Safe and comfortable boarding facilities for your pets.</p>
+        </div>
+    </section>
+    <section id="testimonials" class="testimonials">
+        <h2>What Our Clients Say</h2>
+        <div class="testimonial">
+            <p>"Animal Care has been fantastic with our dog. Highly recommend!" - Jane Doe</p>
+        </div>
+        <div class="testimonial">
+            <p>"Great service and friendly staff. Our cat loves it here!" - John Smith</p>
+        </div>
+    </section>
+    <footer>
+        <p>© 2024 Animal Care. All rights reserved.</p>
+    </footer>
+</body>
+</html>
